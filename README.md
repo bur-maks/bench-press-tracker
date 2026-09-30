@@ -1,4 +1,4 @@
-\# Bench Press Tracker
+# Bench Press Tracker
 
 
 
@@ -12,61 +12,61 @@ It was made as a personal practice project to improve my skills in Python, backe
 
 
 
-\## Features
+## Features
 
 
 
-\- User registration and login
+- User registration and login
 
-\- JWT authentication
+- JWT authentication
 
-\- Password hashing with bcrypt
+- Password hashing with bcrypt
 
-\- Personal user profile
+- Personal user profile
 
-\- Bench press result tracking
+- Bench press result tracking
 
-\- Estimated 1RM calculation
+- Estimated 1RM calculation
 
-\- Progress chart
+- Progress chart
 
-\- Absolute leaderboard
+- Absolute leaderboard
 
-\- Relative leaderboard
+- Relative leaderboard
 
-\- Profile editing
+- Profile editing
 
-\- SQLite database
-
-
-
-\## Technologies
+- SQLite database
 
 
 
-\- Python
-
-\- FastAPI
-
-\- SQLAlchemy
-
-\- SQLite
-
-\- JWT
-
-\- bcrypt
-
-\- HTML
-
-\- CSS
-
-\- JavaScript
-
-\- Chart.js
+## Technologies
 
 
 
-\## Project structure
+- Python
+
+- FastAPI
+
+- SQLAlchemy
+
+- SQLite
+
+- JWT
+
+- bcrypt
+
+- HTML
+
+- CSS
+
+- JavaScript
+
+- Chart.js
+
+
+
+## Project structure
 
 
 
@@ -76,7 +76,7 @@ bench-press-tracker/
 
 ├── static/
 
-│   └── index\_fixed.html
+│   └── index_fixed.html
 
 ├── .env.example
 
@@ -86,15 +86,15 @@ bench-press-tracker/
 
 ├── requirements.txt
 
-├── bench\_site.pyproj
+├── bench_site.pyproj
 
-└── bench\_site.sln
+└── bench_site.sln
 
 ```
 
 
 
-\## Installation
+## Installation
 
 
 
@@ -130,7 +130,7 @@ Create a `.env` file based on `.env.example`:
 
 ```env
 
-SECRET\_KEY=your\_secret\_key\_here
+SECRET_KEY=your_secret_key_here
 
 ```
 
@@ -160,7 +160,7 @@ http://127.0.0.1:8000/
 
 
 
-\## Database
+## Database
 
 
 
@@ -176,21 +176,21 @@ If the database does not exist, the application automatically creates a new one 
 
 
 
-\## Security
+## Security
 
 
 
-\- Passwords are stored as bcrypt hashes
+- Passwords are stored as bcrypt hashes
 
-\- Authentication uses JWT tokens
+- Authentication uses JWT tokens
 
-\- Secret keys are stored in environment variables
+- Secret keys are stored in environment variables
 
-\- `.env` and database files are excluded from Git
+- `.env` and database files are excluded from Git
 
 
 
-\## Project status
+## Project status
 
 
 
@@ -202,21 +202,21 @@ Planned improvements:
 
 
 
-\- Public deployment
+- Public deployment
 
-\- Production database configuration
+- Production database configuration
 
-\- HTTPS
+- HTTPS
 
-\- Improved authentication and session handling
+- Improved authentication and session handling
 
-\- Additional statistics
+- Additional statistics
 
-\- UI improvements
+- UI improvements
 
 
 
-\## Author
+## Author
 
 
 
@@ -226,11 +226,11 @@ Computer Science and Computer Engineering student at INRTU.
 
 
 
-\---
+---
 
 
 
-\# Bench Press Tracker — Русская версия
+# Bench Press Tracker — Русская версия
 
 
 
@@ -244,61 +244,61 @@ Computer Science and Computer Engineering student at INRTU.
 
 
 
-\## Возможности
+## Возможности
 
 
 
-\- Регистрация пользователей и вход в аккаунт
+- Регистрация пользователей и вход в аккаунт
 
-\- JWT-аутентификация
+- JWT-аутентификация
 
-\- Хеширование паролей с помощью bcrypt
+- Хеширование паролей с помощью bcrypt
 
-\- Личный профиль пользователя
+- Личный профиль пользователя
 
-\- Сохранение результатов жима лёжа
+- Сохранение результатов жима лёжа
 
-\- Расчёт примерного 1RM
+- Расчёт примерного 1RM
 
-\- График прогресса
+- График прогресса
 
-\- Абсолютный рейтинг
+- Абсолютный рейтинг
 
-\- Относительный рейтинг
+- Относительный рейтинг
 
-\- Редактирование профиля
+- Редактирование профиля
 
-\- База данных SQLite
-
-
-
-\## Используемые технологии
+- База данных SQLite
 
 
 
-\- Python
-
-\- FastAPI
-
-\- SQLAlchemy
-
-\- SQLite
-
-\- JWT
-
-\- bcrypt
-
-\- HTML
-
-\- CSS
-
-\- JavaScript
-
-\- Chart.js
+## Используемые технологии
 
 
 
-\## Структура проекта
+- Python
+
+- FastAPI
+
+- SQLAlchemy
+
+- SQLite
+
+- JWT
+
+- bcrypt
+
+- HTML
+
+- CSS
+
+- JavaScript
+
+- Chart.js
+
+
+
+## Структура проекта
 
 
 
@@ -308,7 +308,7 @@ bench-press-tracker/
 
 ├── static/
 
-│   └── index\_fixed.html
+│   └── index_fixed.html
 
 ├── .env.example
 
@@ -318,15 +318,15 @@ bench-press-tracker/
 
 ├── requirements.txt
 
-├── bench\_site.pyproj
+├── bench_site.pyproj
 
-└── bench\_site.sln
+└── bench_site.sln
 
 ```
 
 
 
-\## Запуск проекта
+## Запуск проекта
 
 
 
@@ -362,7 +362,7 @@ pip install -r requirements.txt
 
 ```env
 
-SECRET\_KEY=your\_secret\_key\_here
+SECRET_KEY=your_secret_key_here
 
 ```
 
@@ -392,7 +392,7 @@ http://127.0.0.1:8000/
 
 
 
-\## База данных
+## База данных
 
 
 
@@ -408,21 +408,21 @@ http://127.0.0.1:8000/
 
 
 
-\## Безопасность
+## Безопасность
 
 
 
-\- Пароли хранятся в виде bcrypt-хешей
+- Пароли хранятся в виде bcrypt-хешей
 
-\- Для авторизации используются JWT-токены
+- Для авторизации используются JWT-токены
 
-\- Секретный ключ хранится в переменных окружения
+- Секретный ключ хранится в переменных окружения
 
-\- `.env` и файлы базы данных исключены из Git
+- `.env` и файлы базы данных исключены из Git
 
 
 
-\## Статус проекта
+## Статус проекта
 
 
 
@@ -434,21 +434,21 @@ http://127.0.0.1:8000/
 
 
 
-\- Публичное размещение сайта
+- Публичное размещение сайта
 
-\- Настройка базы данных для публичной версии
+- Настройка базы данных для публичной версии
 
-\- HTTPS
+- HTTPS
 
-\- Улучшение системы авторизации и сессий
+- Улучшение системы авторизации и сессий
 
-\- Дополнительная статистика
+- Дополнительная статистика
 
-\- Улучшение интерфейса
+- Улучшение интерфейса
 
 
 
-\## Автор
+## Автор
 
 
 
