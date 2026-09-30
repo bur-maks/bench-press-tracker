@@ -1,0 +1,25 @@
+# Database
+bench.db
+*.db
+
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Visual Studio
+.vs/
+*.pyproj.user
+
+# IDE
+.idea/
+.vscode/
